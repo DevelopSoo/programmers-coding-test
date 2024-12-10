@@ -58,6 +58,6 @@ function evaluatePostfix(expression) {
 }
 
 // 사용 예시
-console.log(calculatePostfix("3 4 +")); // 출력: 7
-console.log(calculatePostfix("3 4 2 * +")); // 출력: 11
-console.log(calculatePostfix("3 4 + 2 *")); // 출력: 14
+console.log(evaluatePostfix("3 4 +")); // 출력: 7
+console.log(evaluatePostfix("3 4 2 * +")); // 출력: 11
+console.log(evaluatePostfix("3 4 + 2 *")); // 출력: 14
